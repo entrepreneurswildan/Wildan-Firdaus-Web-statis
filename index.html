@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macam-Macam Burung</title>
+   <style>
+    /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main section styling */
+main {
+    padding: 1rem;
+}
+
+.bird-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bird-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: calc(33.333% - 1rem);
+    text-align: center;
+}
+
+.bird-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.bird-card p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Macam-Macam Burung</h1>
+    </header>
+    <main>
+        <section class="bird-container">
+            <div class="bird-card">
+                <h2>CUCOK HIJAU</h2>
+                <p><strong>Spesifikasi:</strong> Spesifikasi burung 1</p>
+                <a href="cucak_hijau.html" class="btn">Selengkapnya</a>
+            </div>
+            <div class="bird-card">
+                <h2>Burung 2</h2>
+                <p><strong>Spesifikasi:</strong> Spesifikasi burung 2</p>
+                <a href="burung_kacer.html" class="btn">Selengkapnya</a>
+            </div>
+            <div class="bird-card">
+                <h2>Burung 3</h2>
+                <p><strong>Spesifikasi:</strong> Spesifikasi burung 3</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
